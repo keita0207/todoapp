@@ -8,5 +8,4 @@ from .serializers import TodoSerializer
 class TodoViewset(viewsets.ModelViewSet):
     queryset = Todo.objects.all()
     serializer_class = TodoSerializer
-    # filter_fields = ('name',)
-    filter_fields = ['name', 'description']
+    filter_fields = ('name',)

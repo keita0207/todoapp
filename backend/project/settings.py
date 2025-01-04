@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # 追加するアプリ名
+
     'todo',
     'corsheaders',
     'rest_framework',
@@ -165,7 +165,7 @@ LOGGING = {
             'format': '\t'.join([
                 '/%(asctime)s',
                 '[%(levelname)s]',
-                '%(pathname)s(Line:%(lineno)d)', # タブ切りで表示させる
+                '%(pathname)s(Line:%(lineno)d)',
                 '%(message)s'
             ])
         }
