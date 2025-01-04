@@ -1,0 +1,18 @@
+# Backend
+Django=4.2
+.env
+
+# Frontend
+React.js(Not Typescript)
+tailwind
+eslint  90%完了
+prettier 90%完了
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss -i ./src/main.css -o ./dist/main.css --watch
+
+
+# 1月4日
+コードの解読(説明出来るように)
+githubに載せる
+docker入れてみる? => backendとfrontendが完璧じゃないから入れなくてもいい

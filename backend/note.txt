@@ -1,0 +1,5 @@
+python -m venv [仮想環境名]
+venv/Scripts/activate
+pip install -r requirements.txt
+django-admin startproject project ===>>> for api
+python manage.py startapp todo
