@@ -1,6 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom';
-import Top from '../components/Top';
+import TopPage from '../components/TopPage';
 
-const router = createBrowserRouter([{ path: '/', element: <Top /> }]);
+// urlとなるcomponentsを追加していく
+// componentsのfile_nameは共通でindexにする(folder_nameが変わる)
+const router = createBrowserRouter([{ path: '/', element: <TopPage /> }]);
 
 export default router;

@@ -14,5 +14,5 @@ npx tailwindcss -i ./src/main.css -o ./dist/main.css --watch
 
 # 1月4日
 コードの解読(説明出来るように)
-githubに載せる
+githubに載せる => Done
 docker入れてみる? => backendとfrontendが完璧じゃないから入れなくてもいい

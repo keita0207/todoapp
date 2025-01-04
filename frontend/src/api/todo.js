@@ -1,4 +1,4 @@
-const originUrl = new URL('http://localhost:8000/api/todo/');
+const originUrl = new URL('http://localhost:8000/api/todo/'); // baseとなるapiのurl
 
 export const getToDoList = () => {
   const url = new URL('/api/todo/', originUrl);
